@@ -1,0 +1,18 @@
+[package]
+name = "sfkit"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.66"
+assert_cmd = "2.0.6"
+clap = "4.0.27"
+clap-verbosity-flag = "2.0.0"
+ctrlc = "3.2.3"
+exitcode = "1.1.2"
+indicatif = "0.17.2"
+log = "0.4.17"
+reqwest = "0.11.13"
+serde = "1.0.147"
